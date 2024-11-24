@@ -7,3 +7,4 @@
 ![como comprar um nintendo - REAL OFICIAL](https://github.com/user-attachments/assets/64870b2d-3542-4a7d-b5b8-7ef8fd44a3b6)
 ![WhatsApp Image 2024-04-25 at 16 36 16](https://github.com/user-attachments/assets/bb1e6e3c-dfc6-4836-aa0b-8172f1950bd6)
 ![Prancheta 1 final como deve ficar](https://github.com/user-attachments/assets/675df36b-3970-48f1-b820-ece6acca5e52)
+https://imgur.com/a/4pPqigz 
