@@ -3,15 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exibição de Imagem</title>
+  <title>Exibição de Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1F3423; /* Verde escuro */
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h2 {
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+    .image-container {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 900px; /* Ajusta a largura máxima */
+      height: auto; /* Mantém a proporção */
+      border-radius: 10px; /* Adiciona bordas arredondadas */
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
 
-<h2>Texto Alternativo</h2>
+<h2>Meu Design</h2>
 
-<p>O atributo alt descreve a imagem para usuários que não podem vê-la:</p>
+<p>Este é um exemplo de um design finalizado apresentado em formato de imagem:</p>
 
-<img src="caminho/para/sua-imagem.png" alt="Prancheta 1 final como deve ficar" width="1920" height="4321">
+<div class="image-container">
+  <img src="sua-imagem.png" alt="Design final" />
+</div>
 
 </body>
 </html>
