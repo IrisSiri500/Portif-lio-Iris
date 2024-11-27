@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2f4f4f;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .sobre-mim {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .sobre-mim img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .sobre-mim p {
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+
+        .secao {
+            margin-bottom: 40px;
+        }
+
+        .secao h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #dcdcdc;
+        }
+
+        .posts, .papelaria {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .posts img, .papelaria img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #fff;
+        }
+
+        .contato {
+            text-align: center;
+        }
+
+        .contato a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        .contato a:hover {
+            color: #87ceeb;
+        }
+
+        .icones {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .icones a img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sobre-mim">
+            <img src="sua-imagem.jpg" alt="Foto de Perfil">
+            <p>
+                Sou estudante de Design na Universidade Metropolitanas Unidas (FMU) e tenho uma grande paixão por aprender coisas novas, ler, jogar e participar de eventos geek. Minha trajetória profissional me permitiu desenvolver habilidades em áreas como Design Gráfico e Marketing, onde tive a oportunidade de criar conteúdos, editar vídeos, gerenciar mídias sociais e trabalhar em projetos de comunicação.
+            </p>
+        </div>
+
+        <div class="secao">
+            <h2>POSTS:</h2>
+            <div class="posts">
+                <img src="post1.jpg" alt="Post 1">
+                <img src="post2.jpg" alt="Post 2">
+                <img src="post3.jpg" alt="Post 3">
+            </div>
+        </div>
+
+        <div class="secao">
+            <h2>PAPELARIA:</h2>
+            <div class="papelaria">
+                <img src="papelaria1.jpg" alt="Papelaria 1">
+                <img src="papelaria2.jpg" alt="Papelaria 2">
+                <img src="papelaria3.jpg" alt="Papelaria 3">
+            </div>
+        </div>
+
+        <div class="contato">
+            <h2>Entre em contato:</h2>
+            <div class="icones">
+                <a href="https://www.linkedin.com/in/iris-silva-7a257b22b/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/irisssilva_arts/" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.behance.net/irissilva14" target="_blank"><img src="behance-icon.png" alt="Behance"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 
