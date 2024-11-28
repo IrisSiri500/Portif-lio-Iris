@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imagem</title>
-      <style>
-        /* Estilos para os links sociais */
-        .social-links a {
-            margin-right: 15px;  /* Espaço entre os links */
-            text-decoration: none; /* Remove o sublinhado */
-            color: #0046C0; /* Cor do texto */
-            font-weight: bold;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Bell MT, Helvetica, sans-serif;
+}
 
-        .social-links a:hover {
-            color: #00A1FC; /* Cor ao passar o mouse */
-        }
-   <style>
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0px;
-  width: 500px;
-  border: 0px solid #73AD21;
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Fundo Site.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
 }
 </style>
 </head>
 <body>
-  <img src="Fundo Site.png" alt="Fundo" width: 100%; height: auto>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Iris Cristina</h1>
+    <p>Sou estudante de Design na Universidade Metropolitanas Unidas (FMU) e tenho uma grande paixão por aprender coisas novas, ler, jogar e participar de eventos geek.
+Minha trajetória profissional me permitiu desenvolver habilidades em áreas como Design Gráfico  e Marketing, onde tive a oportunidade de criar conteúdos, editar vídeos, gerenciar mídias sociais e trabalhar em projetos de comunicação.
+</p>
+  </div>
+</div>
 
   <div class="scroll-container">
-  <img src="Post 1.jpg" alt="Post1" width="00" height="500">
-  <img src="Post 2.jpg" alt="Post2" width="500" height="500">
-  <img src="Post 3.jpg" alt="Post3" width="500" height="500">
+  <img src="Post 1.jpg" alt="Post 1" width="00" height="500">
+  <img src="Post 2.jpg" alt="Post 2" width="500" height="500">
+  <img src="Post 3.jpg" alt="Post 3" width="500" height="500">
+  <img src="Post 3.jpg" alt="Post 3" width="500" height="500">
+
 </div>
 
   
@@ -42,6 +55,7 @@ div.fixed {
         <a href="https://www.behance.net/irissilva14" target="_blank">Behance</a>
 </div>
     </div>
+
 </body>
 </html>
 
